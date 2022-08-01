@@ -21,7 +21,7 @@ address, and then curl will show your new message:
     $ curl 10.1.0.2:8888
      Hello World!
 
-To test from external network, you need to create router. Please refer to [Running the router](https://github.com/openshift/origin/blob/master/docs/routing.md)
+To test from external network, you need to create router. Please refer to [Running the router](https://github.com/openshift/router)
 
 The container doesn't expose any ports, this will require you to expose it manually.
 For example:
